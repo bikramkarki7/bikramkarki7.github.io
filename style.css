@@ -26,6 +26,13 @@
 }
 .infoContainer{
     background-color: aquamarine;
-    height: 45vh;
-    width:80vW;
+    height: 60vh;
+    width:60vW;
+    margin: 144px auto;
+    display:flex;
+      justify-content:space-around;
+}
+.devPic img{
+    width:300px;
+    height:380px;
 }
