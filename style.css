@@ -5,7 +5,7 @@
     padding:0;
 }
 .sidebar{
-    background-color:aqua;
+    /* background-color:aqua; */
     width:20vw;
     font-family:'Fira Sans',sans-serif;
     height:100vh;
@@ -19,14 +19,14 @@
     padding: 33px;
 }
 .main{
-    background-color:bisque;
+    /* background-color:bisque; */
     width:80vw;
 }
 .container{
     display:flex;
 }
 .infoContainer{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 60vh;
     width:60vW;
     margin: 144px auto;
