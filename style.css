@@ -102,12 +102,18 @@ text-align: center;
     flex-direction:column;
     align-items: flex-start;
 }
-.contactform from div{
-    width:16vw;
+.contactform form div input {
+    width:20vw;
     border-radius: 5px;
     margin:6px;
     padding: 3px;
-
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
 }
 #emailHelp{
     font-size: 12px;
