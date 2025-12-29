@@ -64,7 +64,7 @@
     font-size: 40px;
 }
 .buttons{
-    margin-top: 28px;
+    margin: top 10px;
 }
 
 .btn{
@@ -79,6 +79,7 @@
 }
 .btn-sm{
     font-size: 17px;
+    margin-top: 0px;
 }
 .btn:hover{
      background-color:whitesmoke;
