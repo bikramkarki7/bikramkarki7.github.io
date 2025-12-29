@@ -125,3 +125,34 @@ flex-direction: row;
     margin:0 5px;
     padding: 3px 0 0 0;
 }
+.blogItem{
+margin: 20px;
+font-family:'Fira Sans',sans-serif;
+}
+h1{
+    font-family:'Fira Sans',sans-serif;
+}
+p{
+    font-family: "Tagesschrift", system-ui;
+}
+.btn-m{
+    padding: 6px 14px;      
+  font-size: 10px;  
+}
+.blogitem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro h2{
+    font-family:'Fira Sans',sans-serif;
+    margin:12px;
+}
+.intro p{
+     font-family: "Tagesschrift", system-ui;
+     margin: 12px;
+}
+.skill{
+    width: 23px;
+    height: 23px;
+    background-color: aqua;
+}
