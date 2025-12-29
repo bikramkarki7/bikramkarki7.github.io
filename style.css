@@ -67,7 +67,7 @@
     margin-top: 28px;
 }
 
-.buttons button{
+.btn{
     padding:9px 14px;
     border-radius: 22px;
     color:whitesmoke;
@@ -77,7 +77,10 @@
     margin:0 3px;
     cursor: pointer;
 }
-.buttons button:hover{
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover{
      background-color:whitesmoke;
     color:rgb(66, 167, 66);
 
@@ -94,7 +97,7 @@
 
 .contactform h1{
 font-family: "Tagesschrift", system-ui;
-text-align: center;
+padding: 12px 0;
 }
 .contactform form div{
     padding: 6px 0;
@@ -119,4 +122,5 @@ flex-direction: row;
     font-size: 12px;
     color:mediumvioletred;
     margin:0 5px;
+    padding: 3px 0 0 0;
 }
