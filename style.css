@@ -6,9 +6,13 @@
 }
 .sidebar{
     background-color:rgb(183, 233, 233);
-    width: 434px;
     font-family:'Fira Sans',sans-serif;
     height:100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+
+
 }
 .sidebar nav{
     padding:45px;
@@ -24,7 +28,9 @@
 }
 .main{
     /* background-color:bisque; */
-    width:80vw;
+    width:calc(100vw-250px);
+    margin-left: 250px;
+    padding: 50px;
 }
 .container{
     display:flex;
@@ -163,7 +169,8 @@ body {
 .skill span {
     display: inline-block;
     width: 90px;
-    font-weight: bold;
+    font-family: "Tagesschrift", system-ui;
+    
 }
 
 .bar {
@@ -203,4 +210,53 @@ body {
     font-size: 16px;
     color: #333;
 }
+.cv-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.cv-container h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.cv-container h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.cv-container ul {
+  padding-left: 20px;
+}
+
+.cv-container hr {
+  margin: 20px 0;
+}
+@media (max-width: 1000px) {
+   /* *{ */
+    /* background-color: rgb(210, 197, 197); */
+  /* }
+
+  .sidebar{
+    position: absolute;
+    transform: translateX(-430px);
+  } */
+}
+.sidebarGo{
+    transform: translate(-443px);
+    position:absolute;
+}
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+}
+.cross{
+    margin-top: 0px;
+    margin-left: 220px;
+}
+
+
+
 
