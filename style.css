@@ -151,15 +151,56 @@ p{
      font-family: "Tagesschrift", system-ui;
      margin: 12px;
 }
-.skillcontainer{
-    padding:12px;
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
 }
-.skill{
-    width: 265px;
-    height: 6px;
-    background-color: rgb(23, 179, 187);
+
+.skill {
+    margin-bottom: 15px;
 }
-.skillItem{
-    display:flex;
-    align-items: center;
+
+.skill span {
+    display: inline-block;
+    width: 90px;
+    font-weight: bold;
 }
+
+.bar {
+    display: inline-block;
+    width: 300px;
+    height: 12px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.fill {
+    height: 100%;
+    background: #17bebb;   
+    border-radius: 20px;
+}
+
+/* optional different shades */
+.html {
+    width:20%;
+     background: #17bebb; }
+.css  {width:20%;
+     background: #17bebb; }
+.js   {width:25%;
+     background: #17bebb; }
+
+.project {
+    margin-top: 30px;
+}
+
+.project h2 {
+    font-size: 22px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #333;
+}
+
