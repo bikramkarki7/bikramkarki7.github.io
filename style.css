@@ -151,8 +151,15 @@ p{
      font-family: "Tagesschrift", system-ui;
      margin: 12px;
 }
+.skillcontainer{
+    padding:12px;
+}
 .skill{
-    width: 23px;
-    height: 23px;
-    background-color: aqua;
+    width: 265px;
+    height: 6px;
+    background-color: rgb(23, 179, 187);
+}
+.skillItem{
+    display:flex;
+    align-items: center;
 }
